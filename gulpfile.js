@@ -31,6 +31,9 @@ var bS_WatchFiles = [
  */
 var bS_Options = {
 	// proxy: "yosiakatsuki.github.dev",
+	server: {
+		baseDir: "./",
+	},
 	open : "external",
 	port : "3000"
 };
