@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.c-fullheight {
+  min-height: 100vh; }
+
+/**
+ * flex
+ */
+.c-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.c-flex-c-c {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+/**
+ * ページTOP
+ */
+.p-top {
+  background-color: #F2C33D;
+  color: #fff; }
+
+.p-top__logo {
+  margin: 0; }
+
+.p-top__logo-img {
+  width: 150px;
+  height: auto;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 5px; }
+
+.p-top__title {
+  margin-top: 0;
+  font-size: 2em;
+  letter-spacing: .2em; }
+
+/**
+ * web fonts
+ */
+.u-font-quicksand {
+  font-family: 'Quicksand', sans-serif; }
+
+/**
+ * font size
+ */
+.u-font-s-large {
+  font-size: 1.2em; }
+
+.u-font-s-medium {
+  font-size: 1rem; }
+
+.u-font-s-small {
+  font-size: 0.8em; }
+
+/**
+ * font weight
+ */
+.u-font-w-300 {
+  font-weight: 300; }
+
+/**
+ * text align
+ */
+.u-align-l {
+  text-align: left; }
+
+.u-align-c {
+  text-align: center; }
+
+.u-align-r {
+  text-align: right; }

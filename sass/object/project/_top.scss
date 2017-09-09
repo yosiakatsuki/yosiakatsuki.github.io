@@ -1,0 +1,25 @@
+/**
+ * ページTOP
+ */
+.p-top {
+  background-color: #F2C33D;
+  color: #fff;
+}
+
+.p-top__logo {
+  margin: 0;
+}
+
+.p-top__logo-img {
+  width: 150px;
+  height: auto;
+  fill:none;
+  stroke:#fff;
+  stroke-width:5px;
+}
+
+.p-top__title {
+  margin-top: 0;
+  font-size: 2em;
+  letter-spacing: .2em;
+}
