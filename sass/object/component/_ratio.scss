@@ -1,0 +1,23 @@
+/**
+ * ratio
+ */
+.c-rato {
+  position: relative;
+  width: 100%;
+
+  &:before {
+    content:"";
+    display: block;
+    padding-top: 75%;
+  }
+}
+
+/**
+ * .c-rato__width-height
+ */
+@include rato( 1, 1 );
+@include rato( 4, 3 );
+@include rato( 8, 5 );
+@include rato( 12, 5 );
+@include rato( 16, 9 );
+
