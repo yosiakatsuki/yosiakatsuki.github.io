@@ -2,9 +2,7 @@
  * header
  */
 .p-header {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
   padding: 1em 0;
   background-color: rgba(#fff,.3);
@@ -28,22 +26,3 @@
   font-size: 1.6em;
   vertical-align: middle;
 }
-
-.p-header--top {
-  background-color: rgba(#fff,0);
-  box-shadow: none;
-
-  .p-header__logo {
-    svg {
-      stroke:#fff;
-    }
-  }//.p-header__logo
-
-  .p-header__title {
-    color: #fff;
-  }//.p-header__title
-
-}//.p-header--top
-
-
-

@@ -7,6 +7,7 @@
   top: 0;
   left: 0;
   background-color: #F2C33D;
+  text-align: center;
   color: #fff;
   z-index: 99;
 }
@@ -21,10 +22,16 @@
 }
 
 .p-splash-s__title {
-  height: 2rem;
+  height: 32px;
+  width: 200px;
+  margin: auto;
   margin-top: 0;
   font-size: 0;
   letter-spacing: .2em;
+
+  span {
+    vertical-align: bottom;
+  }
 }
 
 
@@ -78,7 +85,7 @@
 
 
 .p-splash-s__anim--01 {
-  animation: splash-s01 .5s ease 0s;
+  animation: splash-s01 .5s ease 0s both;
 }
 
 .p-splash-s__anim--02 {
@@ -95,8 +102,8 @@
 }
 
 .p-splash-s__anim--03 {
-  animation: splash-s03 2s ease 3.5s;
+  animation: splash-s03 2s ease 3.5s both;
 }
 .p-splash-s__anim--04 {
-  animation: splash-s04 2s ease 3.5s;
+  animation: splash-s04 2s ease 3.5s both;
 }

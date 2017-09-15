@@ -1,0 +1,51 @@
+/**
+ * Bootstrap
+ */
+/**
+ * crane
+ */
+/**
+ * mixin - rato
+ */
+/**
+ * akatsuki
+ */
+/**
+ * web fonts
+ */
+.u-font-akatsuki {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300; }
+
+/**
+ * logp
+ */
+.c-svg-logo {
+  width: 100px;
+  height: auto;
+  fill: none;
+  stroke-width: 5px; }
+
+/**
+ * header
+ */
+.p-header {
+  position: relative;
+  width: 100%;
+  padding: 1em 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  z-index: 10; }
+
+.p-header__logo svg {
+  width: 50px;
+  stroke: #F2C33D;
+  stroke-width: 12px;
+  margin-right: .2em;
+  vertical-align: middle; }
+
+.p-header__title {
+  color: #F2C33D;
+  font-size: 1.6em;
+  vertical-align: middle; }

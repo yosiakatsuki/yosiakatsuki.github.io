@@ -1,0 +1,25 @@
+/**
+ * front-page
+ */
+.p-front-body {
+
+  .p-header {
+    background-color: rgba(#000,0);
+    box-shadow: none;
+
+    .p-header__logo {
+      svg {
+        stroke:#fff;
+      }
+    }//.p-header__logo
+
+    .p-header__title {
+      color: #fff;
+    }//.p-header__title
+
+  }//.p-header--top
+
+  .p-top {
+    margin-top: -82px;
+  }
+}
