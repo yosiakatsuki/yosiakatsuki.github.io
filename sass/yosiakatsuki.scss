@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body {
+  background-color: #07689F;
+  font-family: Avenir,"Helvetica neue",Helvetica,YuGothic,"Yu Gothic","Hiragino Sans","ヒラギノ角ゴシック","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+  color: #fff;
+  line-height: 1.5;
+}
+
+a {
+  color: #fff;
+  transition: all .3s;
+
+  &:hover {
+    font-size: 1.2em;
+  }
+}
+
+main {
+  height: 100vh;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+}
+
+.flex--justify-center {
+  justify-content: center;
+}
+.flex--align-center {
+  align-items: center;
+}
+
+.yosiakatsuki__image img {
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.yosiakatsuki__name {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.yosiakatsuki__id {
+  position: relative;
+  padding: 0 0 1em;
+  margin: 0;
+  color: #ddd;
+  font-size: .9em;
+
+  &:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-bottom: 1px solid #fff;
+  }
+
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+
+  li {
+    padding: 0;
+    width: 35px;
+    height: 25px;
+    a {
+      vertical-align: middle;
+    }
+  }
+}
+//
+// .links--web {
+//   color: #A2D5F2;
+//
+//   &:hover {
+//     color: lighten(#A2D5F2,10%);
+//   }
+// }
+//
+// .links--blog {
+//   color: #FF7E67;
+//
+//   &:hover {
+//     color: lighten(#FF7E67,10%);
+//   }
+// }
+//
+// .links--twitter {
+//   color: #48A1EC;
+//
+//   &:hover {
+//     color: lighten(#48A1EC,10%);
+//   }
+// }
+//
+// .links--github {
+//   color: #4183c4;
+//
+//   &:hover {
+//     color: lighten(#4183c4,10%);
+//   }
+// }
+//
+

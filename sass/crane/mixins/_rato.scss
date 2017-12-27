@@ -1,9 +1,0 @@
-/**
- * mixin - rato
- */
-@mixin rato( $width, $height ) {
-  $rato : ( ( $height / $width ) * 100 );
-  .c-rato__#{$width}-#{$height}:before {
-    padding-top: $rato#{%};
-  }
-}

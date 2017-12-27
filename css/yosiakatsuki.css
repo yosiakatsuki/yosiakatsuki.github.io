@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body {
+  background-color: #07689F;
+  font-family: Avenir,"Helvetica neue",Helvetica,YuGothic,"Yu Gothic","Hiragino Sans","ヒラギノ角ゴシック","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+  color: #fff;
+  line-height: 1.5; }
+
+a {
+  color: #fff;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+  a:hover {
+    font-size: 1.2em; }
+
+main {
+  height: 100vh;
+  text-align: center; }
+
+.flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.flex--justify-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.flex--align-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.yosiakatsuki__image img {
+  border-radius: 50%;
+  border: 2px solid #fff; }
+
+.yosiakatsuki__name {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+.yosiakatsuki__id {
+  position: relative;
+  padding: 0 0 1em;
+  margin: 0;
+  color: #ddd;
+  font-size: .9em; }
+  .yosiakatsuki__id:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-bottom: 1px solid #fff; }
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0; }
+  .links li {
+    padding: 0;
+    width: 35px;
+    height: 25px; }
+    .links li a {
+      vertical-align: middle; }
