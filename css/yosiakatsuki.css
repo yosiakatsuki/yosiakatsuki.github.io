@@ -130,16 +130,16 @@ main {
     left: 100%; } }
 
 .main-block:before {
-  -webkit-animation: anm-width-100 1.5s ease 0s both;
-  animation: anm-width-100 1.5s ease 0s both; }
+  -webkit-animation: anm-width-100 1.5s ease .3s both;
+  animation: anm-width-100 1.5s ease .3s both; }
 
 .main-block:after {
-  -webkit-animation: anm-width-100 1.5s ease .2s both;
-  animation: anm-width-100 1.5s ease .2s both; }
+  -webkit-animation: anm-width-100 1.5s ease .5s both;
+  animation: anm-width-100 1.5s ease .5s both; }
 
 .yosiakatsuki__links:after {
-  -webkit-animation: anm-left-100 1.5s ease .2s both;
-  animation: anm-left-100 1.5s ease .2s both; }
+  -webkit-animation: anm-left-100 1.5s ease .7s both;
+  animation: anm-left-100 1.5s ease .7s both; }
 
 @media screen and (min-width: 768px) {
   main {

@@ -121,13 +121,13 @@ main {
   }
 }
 .main-block:before {
-  animation: anm-width-100 1.5s ease 0s both;
+  animation: anm-width-100 1.5s ease .3s both;
 }
 .main-block:after {
-  animation: anm-width-100 1.5s ease .2s both;
+  animation: anm-width-100 1.5s ease .5s both;
 }
 .yosiakatsuki__links:after {
-  animation: anm-left-100 1.5s ease .2s both;
+  animation: anm-left-100 1.5s ease .7s both;
 }
 @media screen and (min-width: 768px) {
   main {
