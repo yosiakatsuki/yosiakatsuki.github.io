@@ -19,7 +19,7 @@ a {
 main {
   height: 100vh;
   min-height: 500px;
-  padding: 3rem; }
+  padding: 5rem 3rem; }
 
 .flex-container {
   display: -webkit-box;
